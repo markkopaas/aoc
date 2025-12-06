@@ -1,6 +1,3 @@
-from gpg.core import hash_algo_name
-
-
 def read_lines(fn):
     with open(fn, 'r') as f:
         return f.readlines()
